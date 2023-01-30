@@ -6,11 +6,7 @@ import {
   Text,
   Stack,
   Image,
-  Button,
 } from '@chakra-ui/react';
-
-const IMAGE =
-  './chatshot.png';
 
   const IMAGE1 =
   './Calcscreen.png';

@@ -3,7 +3,6 @@ import {
   Box,
   Flex,
   Avatar,
-  VStack,
   IconButton,
   Button,
   Menu,
@@ -15,7 +14,6 @@ import {
   useDisclosure,
   useColorModeValue,
   Stack,
-  List,
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 

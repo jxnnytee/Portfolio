@@ -1,12 +1,10 @@
 import {
-  Button,
   Flex,
   Heading,
   Image,
   Stack,
   Text,
   useBreakpointValue,
-  useColorModeValue
 } from '@chakra-ui/react';
 
 export function Home() {
