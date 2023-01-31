@@ -14,29 +14,32 @@ import {
   useColorModeValue,
   Stack,
 } from '@chakra-ui/react';
+
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 
-const Links = [''];
+const Links = ['']
 
-
-const NavLink = ({ children }) => (
+const NavLink = ({ children, onClose }) => (
 
   <Menu>
-  <Button><a href='#Home'>Home</a></Button>
-  <Button><a href='#About'>About</a></Button>
-  <Button><a href='#Projects'>Projects</a></Button>
-  <Button><a href='#Skills'>Skills</a></Button>
-  <Button><a href='#Contact'>Contact</a></Button>
-  <Button 
-  as='button'
-  p={4}
-  color='white'
-  fontWeight='bold'
-  borderRadius='md'
-  bgGradient='linear(to-r, teal.500, green.500)'
-  _hover={{
-    bgGradient: 'linear(to-r, red.500, yellow.500)',
-  }}><a href='https://drive.google.com/file/d/1u2mV9k5HdN4Sp6HOAiBrR0InG86P0qyF/view?usp=sharing' target='_blank'>Resume</a></Button>
+    <Button><a href='#Home'>Home</a></Button>
+    <Button><a href='#About'>About</a></Button>
+    <Button><a href='#Projects'>Projects</a></Button>
+    <Button><a href='#Skills'>Skills</a></Button>
+    <Button><a href='#Contact'>Contact</a></Button>
+    <Button 
+      as='button'
+      p={4}
+      color='white'
+      fontWeight='bold'
+      borderRadius='md'
+      bgGradient='linear(to-r, teal.500, green.500)'
+      _hover={{
+        bgGradient: 'linear(to-r, red.500, yellow.500)',
+      }}><a href='https://drive.google.com/file/d/1u2mV9k5HdN4Sp6HOAiBrR0InG86P0qyF/view?usp=sharing' target='_blank'>
+        Resume
+        </a>
+      </Button>
   </Menu>
 );
 
