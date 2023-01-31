@@ -138,7 +138,7 @@ export function Projects() {
             Project 2
           </Text>
           <Heading fontSize={'2xl'} fontFamily={'body'} fontWeight={500}>
-            Todo List
+            To-Do List
           </Heading>
           <Stack direction={'row'} align={'center'}>
           <a href='https://bespoke-cranachan-3b4287.netlify.app/' target='_blank'>Click Here</a>
