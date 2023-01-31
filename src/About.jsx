@@ -36,13 +36,13 @@ export function About() {
         textAlign={'center'}
         maxW={'3xl'}>
         Hello! My name is John Akinyemi and I love building and designing things for the web. 
-        I first found an interest in web development back in late 2020 when the UK was forced into lockedown due to the Covid-19 outbreak. 
+        I first found an interest in web development back in late 2020 when the UK was forced into lockdown due to the Covid-19 outbreak. 
         I was working in construction at the time as an Electrician Mate, however I was forced to embark on a journey to find out what it is that I really enjoyed doing. 
         What contributes to the world and also contribute to me as well.<br /><br />
         I spent a lot of time on the computer, which made me realise how amazing and fascinating a lot of websites were that I came across. 
-        From the design to the functionalites, everything blew me away. 
+        From the design to the functionalities, everything blew me away. 
         Then I knew that this was something I wanted to be able to create, 
-        the ability to create websites that fascinate people, the same way they fascinated me.
+        the ability to create websites that fascinate people, the same way they fascinate me.
 
       </Text>
       <Box textAlign={'center'}>
