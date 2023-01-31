@@ -4,7 +4,7 @@ import {
   Image,
   Stack,
   Text,
-  useBreakpointValue,
+  useBreakpointValue
 } from '@chakra-ui/react';
 
 export function Home() {

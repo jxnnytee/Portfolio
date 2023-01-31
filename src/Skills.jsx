@@ -1,12 +1,16 @@
-import { Center, Divider } from "@chakra-ui/react";
-import { Heading, Text } from "@chakra-ui/react";
-import { useColorModeValue } from "@chakra-ui/react";
-import { ListItem } from "@chakra-ui/react";
-import { ListIcon } from "@chakra-ui/react";
+import { 
+  Center, 
+  Divider, 
+  Heading, 
+  Text, 
+  ListItem, 
+  ListIcon, 
+  List, 
+  Card, 
+  Image, 
+  useColorModeValue 
+} from "@chakra-ui/react";
 import { MdCheckCircle } from "react-icons/md";
-import { List } from "@chakra-ui/react";
-import { Card } from "@chakra-ui/react";
-import { Image } from "@chakra-ui/react";
 import Logo from '../public/scrimba.png'
 
 

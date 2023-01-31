@@ -5,7 +5,7 @@ import {
   Heading,
   Text,
   Stack,
-  Image,
+  Image
 } from '@chakra-ui/react';
 
   const IMAGE1 =

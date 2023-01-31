@@ -2,16 +2,10 @@ import {
   Box,
   Button,
   Flex,
-  FormControl,
-  FormLabel,
   Heading,
   IconButton,
-  Input,
-  InputGroup,
-  InputLeftElement,
   Link,
   Stack,
-  Textarea,
   Tooltip,
   useClipboard,
   useColorModeValue,
@@ -19,7 +13,7 @@ import {
 } from '@chakra-ui/react';
 import React from 'react';
 import { BsGithub, BsLinkedin, BsPerson, BsTwitter } from 'react-icons/bs';
-import { MdEmail, MdOutlineEmail } from 'react-icons/md';
+import { MdEmail } from 'react-icons/md';
 
 const confetti = {
   light: {
